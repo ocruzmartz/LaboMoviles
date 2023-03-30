@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="m_app">8dp</dimen>
+    <dimen name="mt_title">64dp</dimen>
+    <dimen name="mt_num">4dp</dimen>
+    <dimen name="mt_value_coin">12dp</dimen>
+    <dimen name="ImageView_layout_width">124dp</dimen>
+    <dimen name="ImageView_layout_height">127dp</dimen>
+    <dimen name="mt_ImageView">16dp</dimen>
+</resources>
