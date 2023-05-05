@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Laboratorio06</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_title_billboard">Billboard</string>
+    <string name="text_title_movie_StarWars">Star Wars episodio 3: La venganza de los Sith</string>
+    <string name="text_calification">9.8</string>
+
+    <string name="text_hint_name">Name</string>
+    <string name="text_hint_description">Description</string>
+    <string name="text_hint_category">Category</string>
+    <string name="text_hint_calification">Calification</string>
+    <string name="text_newMovie">New Movie</string>
+    <string name="btn_submit">Submit</string>
+</resources>
