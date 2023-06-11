@@ -27,9 +27,14 @@ class CredentialsRepository(private val api: AuthService) {
             val response = api.register(RegisterRequest(name, email, password))
             return ApiResponse.Success(response.message)
         } catch (e: HttpException) {
+            if (password.length < 8) {
+                return ApiResponse.ErrorWithMessage("The password must have more than 8 characters")
+            }
+
             if (e.code() == 400) {
                 return ApiResponse.ErrorWithMessage("Invalid email or password")
             }
+
             return ApiResponse.Error(e)
         } catch (e: IOException) {
             return ApiResponse.Error(e)
